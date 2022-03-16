@@ -1,12 +1,12 @@
 # LING553
 Final project using Speech Accent Archive
 
-
-speechAAdatabase.py
-speechAAmp3downloader.py
-VOTinteractive.py
-EnglishDF.csv
-ChineseDF.csv
-FrenchDF.csv
-ThaiDF.csv
-SAAModel.R
+The below files were used for the purposes of this project:
+speechAAdatabase.py - for webscraping the Speech Accent Archive (https://accent.gmu.edu/) for selected langauges, and using bio data as input to a data frame
+speechAAmp3downloader.py - for downloading corresponding mp3 files
+VOTinteractive.py - a useful interactive script to update data bases with recorded voiced onset time measurements
+EnglishDF.csv - recorded VOTs in data base for English observations
+ChineseDF.csv - recorded VOTs in data base for Mandarin observations
+FrenchDF.csv - recorded VOTs in data base for French observations
+ThaiDF.csv - recorded VOTs in data base for Thai observations
+SAAModel.R - plotting and modeling results
